@@ -1,0 +1,69 @@
+Auteur: pe27igm
+Date: 11.10.2023
+Entreprise: DGEP
+Description: carrectangle
+
+Voici les ordres du programme carrectangle  :
+
+	Masquer le curseur.
+	Afficher "\n".
+	Créer #longueurLigne.
+	Créer #compteur avec la valeur 1.
+	Créer #hauteurLigne.
+	Afficher "Longueur de la ligne (entre 1 et 9): ".
+	Récupérer la saisie et la stocker dans #longueurLigne.
+	Afficher "\n".
+	Afficher "Hauteur de la ligne (entre 1 et 9): ".
+	Récupérer la saisie et la stocker dans #hauteurLigne.
+	
+	Effacer l'écran.
+	
+	
+	
+	//ligne x1
+	Afficher "@".
+	Répéter (#longueurLigne)x
+		Afficher "--".
+		Attendre 75ms.
+	>>
+	
+	
+	//ligne y1
+	Afficher "\n".
+	Répéter (#hauteurLigne) x
+		Afficher "|\n".
+		Attendre 75ms.
+	>>
+	Afficher "@".
+	
+	
+	
+	//ligne x2
+	//Placer le curseur à la ligne #hauteurLigne.
+	
+	Répéter (#longueurLigne) x
+		Placer le curseur à la ligne #hauteurLigne.
+		Afficher "--".
+		Attendre 75ms.	
+	>>
+	//ligne y2
+	//Placer le curseur à la colonne #longueurLigne.
+	Placer le curseur à la colonne #longueurLigne.
+	Placer le curseur à la ligne 1.
+	Répéter (#hauteurLigne) x
+		
+		Afficher "|\n".
+		Attendre 75ms.
+	>>
+	
+	//Répéter (#longueurLigne) x
+	//	Afficher "#compteur".
+	//	Copier le résultat de (#compteur + 1) dans la zone mémoire nommée #compteur.
+	//>>
+	
+	Afficher "\n\n".
+	
+	Afficher "Si la ligne est de même longueur que la série de chiffres, alors la longueur est correcte...".
+
+	
+Fin de la transmission.

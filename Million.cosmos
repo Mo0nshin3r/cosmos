@@ -1,0 +1,149 @@
+Auteur: pe27igm
+Date: 04.10.2023
+Entreprise: DGEP
+Description: Million
+
+Voici les ordres du programme Million  :
+//question 1
+	Afficher En quelle année est né le langage Cosmos?\n\n .
+	Afficher A. En 1934	B. En 2001\n.
+	Afficher C. En 2016	D. En 2019\n.
+	
+	Créer une zone mémoire nommée #reponse.
+	Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+	Afficher \nVotre réponse: #reponse.
+	
+	
+	Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à D alors
+		Afficher \nGG EZ.
+		
+		//question 2	
+			Afficher \n\n2+2?\n\n .
+			Afficher A.  oui	B. non\n.
+			Afficher C.  42	D. 4\n.
+	
+			Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+			Afficher \nVotre réponse: #reponse.
+			Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à D alors
+				Afficher \nGG EZ.
+				
+				//question 3
+				Afficher \n\nquelle heure est-il?\n\n .
+				Afficher A. 13:22 	B. 03:00\n.
+				Afficher C. 6:12		D. aucune de ces réponses \n.
+				
+				Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+				Afficher \nVotre réponse: #reponse.
+				Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à D ou #reponse est égale à C ou #reponse est égale à B ou #reponse est égale à A alors
+					Afficher \nGG EZ.
+					
+					//question 4	
+					Afficher \n\n6 = ?\n\n .
+					Afficher A. 2x3 	B. 3x2\n.
+					Afficher C. 2^3	D. 3^2\n.
+					
+					Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+					Afficher \nVotre réponse: #reponse.
+					Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à A ou #reponse est égale à B alors
+						Afficher \nGG EZ.
+						
+						//question 5
+						Afficher \n\n46x4 = ?\n\n .
+						Afficher A. 164 	B. 184\n.
+						Afficher C. 172	D. 182\n.
+						
+						Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+						Afficher \nVotre réponse: #reponse.
+						Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à B alors
+							Afficher \nGG EZ.
+							
+							//question 6
+							Afficher \n\n104x20 = ?\n\n .
+							Afficher A. 2080 	B. 4080\n.
+							Afficher C. 4208		D. oui \n.
+							
+							Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+							Afficher \nVotre réponse: #reponse.
+							Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à A alors
+								Afficher \nGG EZ.
+								
+								//question 7
+								Afficher \n\n14923x138491^12 = ?\n\n .
+								Afficher A. euhhh 	B. hmmmm\n.
+								Afficher C. j'lai presque D.ouais non \n.
+								
+								Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+								Afficher \nVotre réponse: #reponse.
+								Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à D ou #reponse est égale à C ou #reponse est égale à B ou #reponse est égale à A alors
+									Afficher \nGG EZ.
+									
+									//question 8
+									Afficher \n\nJ'ai faim\n\n .
+									Afficher A. Moi aussi!!!	 B. non\n.
+									Afficher C. non plus	  D. en vrai oui \n.
+									
+									Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+									Afficher \nVotre réponse: #reponse.
+									Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à D ou #reponse est égale à A alors
+										Afficher \nGG EZ.
+										
+										//question 9
+										Afficher \n\n10^10 = ?\n\n .
+										Afficher A. c'est dur un peu	B. 10 000 000 000 \n.
+										Afficher C. 10 000 000		D. -12\n.
+										
+										Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+										Afficher \nVotre réponse: #reponse.
+										Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à B alors
+											Afficher \nGG EZ.
+											
+											//question 10
+											Afficher \n\n64:4 = ?\n\n .
+											Afficher A.  5		B. 16\n.
+											Afficher C.  42	D. 4\n.
+											
+											Récupérer la saisie et la stocker dans la zone mémoire nommée #reponse.
+											Afficher \nVotre réponse: #reponse.
+											Si la valeur enregistrée dans la zone mémoire nommée #reponse est égale à B alors
+												Afficher \nGG EZ.
+												
+											et sinon
+												Afficher \nNT.
+											?
+										et sinon
+											Afficher \nNT.
+										?	
+									et sinon
+										Afficher \nNT.
+									?
+									
+									
+								et sinon
+									Afficher \nNT.
+								?	
+	
+								
+							et sinon
+								Afficher \nNT.
+							?	
+						et sinon
+							Afficher \nNT.
+						?
+						
+					et sinon
+						Afficher \nNT.
+					?	
+					
+				et sinon
+					Afficher \nNT.
+				?
+				
+			et sinon
+				Afficher \nNT.
+			?
+		
+	et sinon
+		Afficher \nNT.
+	?
+	
+ Fin de la transmission.

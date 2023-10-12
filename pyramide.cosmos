@@ -1,0 +1,54 @@
+Auteur: pe27igm
+Date: 11.10.2023
+Entreprise: DGEP
+Description: pyramide
+
+Voici les ordres du programme pyramide :
+
+	Créer #taillepyramide.
+	Créer #compteur avec la valeur 1.
+	Afficher "Taille de la pyramide : ".
+	Récupérer la saisie et la stocker dans #taillepyramide.
+	Créer #droite avec la valeur 0.
+	Créer #gauche avec la valeur 0.
+	
+	
+	
+	//compteur
+	Répéter (#taillepyramide)x
+		
+		Afficher "#compteur".
+		Copier le résultat de (#compteur + 1) dans la zone mémoire nommée #compteur.
+		
+		//x initial
+		Placer le curseur à la colonne #taillepyramide+2.
+		Afficher "x".
+		
+		
+		//déplacement x vers la droite
+		Répéter (#compteur - 2)x
+			Afficher "x".
+		>>	
+		
+			//déplacement x vers la gauche
+			
+			Placer le curseur à la colonne #taillepyramide-#compteur+4.
+			
+			Répéter (#compteur - 2)x
+				Afficher "x".
+			>>
+			
+		
+		
+		
+		
+		
+		Attendre 75ms.
+		Afficher "\n".
+	>>
+		
+
+
+
+Fin de la transmission.	
+		

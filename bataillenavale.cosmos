@@ -1,0 +1,49 @@
+Auteur: pe27igm
+Date: 12.10.2023
+Entreprise: DGEP
+Description: bataille navale
+
+Voici les ordres du programme bataillenavale : 
+
+	Créer #iashipX1.
+	Créer #iashipX2.
+	Créer #iashipY1.
+	Créer #iashipY2.
+	Créer #humanshipX1.
+	Créer #humanshipX2.
+	Créer #humanshipY1.
+	Créer #humanshipY2.
+	Créer #totalhumanshipdestroyed.
+	Créer #totaliashipdestroyed.
+
+	Afficher "  *Bienvenue dans Bataille Navale*\n\n".
+	
+	Afficher "Coordonnée X premier bateau : ".
+	Récupérer la saisie et la stocker dans #humanshipX1.
+	Afficher "Coordonnée Y premier bateau : ".
+	Récupérer la saisie et la stocker dans #humanshipY1.
+	Afficher "Coordonnée X deuxième bateau : ".
+	Récupérer la saisie et la stocker dans #humanshipX2.
+	Afficher "Coordonnée Y deuxième bateau : ".
+	Récupérer la saisie et la stocker dans #humanshipY2.
+	
+	Effacer l'écran.
+	
+	Placer le curseur à la ligne 0.
+	Placer le curseur à la colonne 0.
+	
+	Répéter 10x
+
+		Afficher "OOOOOOOOOO"
+	>>
+	
+	Placer le curseur à la colonne #humanshipX1.
+	Placer le curseur à la ligne #humanshipY1.
+	Afficher "X".
+	
+		
+	
+	
+Fin de la transmission.	
+	
+	

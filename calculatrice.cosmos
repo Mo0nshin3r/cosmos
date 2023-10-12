@@ -1,0 +1,42 @@
+Auteur: pe27igm
+Date: 10.10.2023
+Entreprise: DGEP
+Description: Calculatrice
+
+Voici les ordres du programme Pluie  :
+
+	Afficher "pour addition  + \npour soustraction  -\npour multiplication  * \npour division :\npour puissance ^\n".
+	
+	Créer une zone mémoire nommée #operandeA.
+	Créer une zone mémoire nommée #operandeB.
+	Créer une zone mémoire nommée #operateur.
+	Créer une zone mémoire nommée #resultat.
+	Afficher "Opérande A: " .
+	Récupérer la saisie et la stocker dans la zone mémoire nommée #operandeA.
+
+	Afficher "\nOpérande B: ".
+	Récupérer la saisie et la stocker dans la zone mémoire nommée #operandeB.
+	Afficher "\nOpérateur:  ".
+	Récupérer la saisie et la stocker dans la zone mémoire nommée #operateur.
+	
+	Si #operateur est égal à "+" alors
+		#resultat = #operandeA plus #operandeB .	
+	?
+	Si #operateur est égal à "-" alors
+		#resultat = #operandeA moins #operandeB .
+	?
+	
+	Si #operateur est égal à "*" alors
+		#resultat = #operandeA fois #operandeB .
+	?
+	
+	Si #operateur est égal à ":" alors
+		#resultat = #operandeA divisé par #operandeB .
+	?
+	Si #operateur est égal à "^" alors
+		#resultat = #operandeA élevé à la puissance #operandeB .
+	?
+	
+	Afficher #resultat.
+	
+Fin de la transmission.

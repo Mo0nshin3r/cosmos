@@ -1,0 +1,93 @@
+Auteur: pe27igm
+Date: 11.10.2023
+Entreprise: DGEP
+Description: rectanglecarre
+
+Voici les ordres du programme rectanglecarre  :
+
+	Masquer le curseur.
+	Afficher "\n".
+	Créer #longueurLigne.
+	Créer #compteur avec la valeur 1.
+	Créer #hauteurLigne.
+	Créer #remplissage.
+	Afficher "Longueur de la ligne : ".
+	Récupérer la saisie et la stocker dans #longueurLigne.
+	Afficher "\n".
+	Afficher "Hauteur de la ligne : ".
+	Récupérer la saisie et la stocker dans #hauteurLigne.
+	Afficher "\nPlein (A) ou Vide (B): ".
+	Récupérer la saisie et la stocker dans #remplissage.
+	
+	
+	//Effacer l'écran.
+	
+	Afficher "\n".
+	
+	Si #hauteurLigne est égale à #longueurLigne alors
+		
+		Afficher "Voici le carré demandé: ".
+		
+	sinon 
+	
+		Afficher "Voici le rectangle demandé: ".
+	
+	?
+	
+	Afficher "\n\n".
+
+			Si #remplissage est égal à "A" alors
+			
+				Afficher "@".
+				Répéter (#longueurLigne)x
+					Afficher "--".
+					Attendre 75ms.
+				>>
+				Afficher "@".
+			
+				Répéter (#hauteurLigne-1)x
+				
+					Afficher "\n|".
+					Répéter (#longueurLigne)x
+						Afficher "--".
+						Attendre 75ms.
+					>>
+					Afficher "|".
+				>>
+				Afficher "\n@".
+				Répéter (#longueurLigne)x
+					Afficher "--".
+					Attendre 75ms.
+				>>
+				Afficher "@".
+			? 
+			
+			Si #remplissage est égal à "B" alors
+				Afficher "@".
+				Répéter (#longueurLigne)x
+					Afficher "--".
+					Attendre 75ms.
+				>>
+				Afficher "@".
+			
+				Répéter (#hauteurLigne-1)x
+				
+					Afficher "\n|".
+					Répéter (#longueurLigne)x
+						Afficher "  ".
+						Attendre 75ms.
+					>>
+					Afficher "|".
+				>>
+				Afficher "\n@".
+				Répéter (#longueurLigne)x
+					Afficher "--".
+					Attendre 75ms.
+				>>
+				Afficher "@".
+			?
+	
+	
+	
+	
+Fin de la transmission.
