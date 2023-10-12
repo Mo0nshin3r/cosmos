@@ -15,34 +15,90 @@ Voici les ordres du programme bataillenavale :
 	Créer #humanshipY2.
 	Créer #totalhumanshipdestroyed.
 	Créer #totaliashipdestroyed.
+	Créer #oui avec la valeur 10.
 
 	Afficher "  *Bienvenue dans Bataille Navale*\n\n".
 	
-	Afficher "Coordonnée X premier bateau : ".
+	//player coords input
+	Afficher "Coordonnée X premier bateau (entre 1 et 10) : ".
 	Récupérer la saisie et la stocker dans #humanshipX1.
-	Afficher "Coordonnée Y premier bateau : ".
+	Afficher "Coordonnée Y premier bateau (entre 1 et 10) : ".
 	Récupérer la saisie et la stocker dans #humanshipY1.
-	Afficher "Coordonnée X deuxième bateau : ".
+	Afficher "Coordonnée X deuxième bateau (entre 1 et 10 : ".
 	Récupérer la saisie et la stocker dans #humanshipX2.
-	Afficher "Coordonnée Y deuxième bateau : ".
+	Afficher "Coordonnée Y deuxième bateau (entre 1 et 10) : ".
 	Récupérer la saisie et la stocker dans #humanshipY2.
 	
 	Effacer l'écran.
-	
+	//affichage grille avec bateaux du joueur
 	Placer le curseur à la ligne 0.
 	Placer le curseur à la colonne 0.
 	
 	Répéter 10x
 
-		Afficher "OOOOOOOOOO"
+		Afficher "OOOOOOOOOO\n".
 	>>
 	
-	Placer le curseur à la colonne #humanshipX1.
-	Placer le curseur à la ligne #humanshipY1.
+	Placer le curseur à la colonne #humanshipX1-1.
+	Placer le curseur à la ligne #humanshipY1-1.
+	Afficher "X".
+	Placer le curseur à la colonne #humanshipX2-1.
+	Placer le curseur à la ligne #humanshipY2-1.
 	Afficher "X".
 	
-		
 	
+		
+		
+		//computer ships coords
+		Placer un nombre aléatoire compris entre 1 et 5 dans #iashipX1.
+		Placer un nombre aléatoire compris entre 1 et 5 dans #iashipY1.
+		Placer un nombre aléatoire compris entre 1 et 5 dans #iashipX2.
+		Placer un nombre aléatoire compris entre 1 et 5 dans #iashipY2.
+		
+		Répéter tant que #iashipX1 == #iashipX2
+			Placer un nombre aléatoire compris entre 1 et 5 dans #iashipX2.
+		
+		>>	
+		Répéter tant que #iashipY1 == #iashipY2
+			Placer un nombre aléatoire compris entre 1 et 5 dans #iashipY2.
+				
+		>>
+	Répéter 50x
+	
+		//tir joueur
+		Créer #tirX.
+		Créer #tirY.
+			
+	 //#tirX == #iashipX1 et #tirX == #iashipX2 et #tirY == #iashipY1 et #tirY == #iashipY2
+			Placer le curseur à la ligne 12.
+			Placer le curseur à la colonne 0.
+			Afficher "Coordonnée X du tir : ".
+			Récupérer la saisie et la stocker dans #tirX.
+			Afficher "Coordonnée Y du tir : ".
+			Récupérer la saisie et la stocker dans #tirY.
+			
+			Si #tirX == #iashipX1 et #tirY == #iashipY1 alors
+					Placer le curseur à la colonne #iashipX1.
+					Placer le curseur à la ligne #iashipY1.
+					Afficher "Z".
+			
+			
+			sinon si #tirX == #iashipX2 alors 
+					Si #tirY == #iashipY2 alors
+						Placer le curseur à la colonne #iashipX2.
+						Placer le curseur à la ligne #iashipY2.
+						Afficher "Z".
+					?	
+			
+			
+			sinon 
+				Placer le curseur à la colonne #tirX.
+				Placer le curseur à la ligne #tirY.
+				Afficher "N".
+			
+			
+			?
+	>>
 	
 Fin de la transmission.	
 	
